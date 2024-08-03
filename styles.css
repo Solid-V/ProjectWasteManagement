@@ -1,0 +1,846 @@
+/*.Main{
+
+position: relative;
+width: 1440px;
+height: 7461px;
+
+background: #FFFFFF;
+}
+*/
+
+
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
+
+@font-face {
+    font-family: Inter;
+    src: url('https://fonts.googleapis.com/css?family=Inter');
+}
+
+
+
+nav{
+    width: 100%;
+    height: 76px;
+    line-height: 76px;
+    padding: 0px 100px;
+    background: #253937;
+
+}
+
+nav ul{
+    float: right;
+    font-family: "Inter";
+
+}
+
+nav li {
+    display:inline-block;
+    font-family: "Inter";
+}
+nav li a{
+    font-size: 18px;
+    font-family: Inter;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+
+}
+
+nav li a:hover {
+    color:aquamarine;
+    transition: all 0.4s;
+}
+
+
+.slogan h1{
+position: relative;
+text-align: left;
+left: -108px;
+top: 148px;
+padding: 30px 78px;
+
+font-family: "JetBrains Mono";
+font-style: normal;
+font-weight: 500;
+font-size: 29px;
+line-height: 31px;
+
+color: #000000;
+
+
+}
+
+.slogan p{
+    position: relative;
+    text-align: left;
+    left: -32px;
+    top: 112px;
+    font-family: "JetBrains Mono";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 29px;
+    line-height: 41px;
+    
+    color: #4A7246;
+}
+
+.slogan-picture{
+    position: relative;
+    float: right;
+    right: -164px;
+    top: -19px;
+    width: 426px; 
+    height: auto;  
+}
+
+.button-read-more {
+    position: relative;
+    background: #C8D8C7;
+    left: -35px;
+    bottom: -200px;
+    width: 107px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+.button-read-more a{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+.content-home img{
+    position: relative;
+    float: left;
+    left: -21px;
+    top: 221px;
+    width: 766px;
+    height: 463px;
+}
+
+.content-home .content{
+    position: relative;
+    float: right;
+    text-align: center;
+    width: 656px;
+    height: 441px;
+    right: -172px;
+    bottom: 845px;
+    font-family: "JetBrains Mono";
+    font-size: 20.7px;
+    font-weight: 500;
+    padding-top: 20%;
+    padding-bottom: 10%;
+}
+
+.content-home .rectangle{
+    position: relative;
+    float: right;
+    top: -218px;
+    right: -169px;
+    width: 654px;
+    height: 441px;
+    background: #C4ECC1;
+}
+
+.leaves{
+    position: relative;
+    height: 70px;
+    width: 90px;
+    top: 1156px;
+    right: -20px;
+}
+
+.leaves img{
+    height:184px;
+    width:1066px;
+}
+
+
+.causes-content .causes-rectangle{
+    position: relative;
+    top: 916px;
+    right: 19px;
+    width: 870px;
+    height: 570px;
+    background: #79A975;
+}
+
+.causes-content .causes-rectangle-back {
+    position: relative;
+    top: 1443px;
+    right: -435px;
+    width: 729px;
+    height: 498px;
+    background: #4D6E4A;
+}
+
+.causes-content .causes-heading{
+    position: relative;
+    float: right;
+    text-align: left;
+    top: -143px;
+    right: 258px;
+    width: 726px;
+    height: 495px;
+    font-family: "JetBrains Mono";
+    font-size: 39px;
+    font-weight: 500;
+    color: aliceblue;
+}
+
+.garbage-can {
+    position: relative;
+    float: left;
+    top: -443px;
+    right: -158px;
+    width: 245px;
+    height: 338px;
+}
+
+.causes-content .causes-para{
+    position: relative;
+    float: left;
+    text-align: left;
+    top: -730px;
+    right: -28px;
+    width: 726px;
+    height: 495px;
+    font-family: "JetBrains Mono";
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    padding-top: 20%;
+    padding-bottom: 10%;
+
+}
+
+.effects-content .causes-main-rectangle{
+    position: relative;
+    right: 19px;
+    top: 1059px;
+    height: 1350px;
+    width: 1186px;
+    background: #1f1f11;
+}
+
+.effects-content .effects-heading{
+    position: relative;
+    float: left;
+    text-align: left;
+    top: -392px;
+    right: -39px;
+    width: 714px;
+    height: 470px;
+    font-family: "JetBrains Mono";
+    font-size: 49px;
+    font-weight: 500;
+    color: aliceblue;
+}
+
+.effects-content .effects-para{
+    position: relative;
+    float: left;
+    text-align: left;
+    top: -896px;
+    right: -380px;
+    width: 714px;
+    height: 470px;
+    line-height: 1.7;
+    font-family: "JetBrains Mono";
+    font-size: 25px;
+    font-weight: 500;
+    color: aliceblue;
+    padding-top: 20%;
+    padding-bottom: 10%;
+}
+
+.effects-content .ecosystem-icon{
+    position: relative;
+    float: left;
+    top: -694px;
+    right: 522px;
+    width: 142px;
+    height: 153px;
+}
+
+.effects-content .greenhouse-icon{
+    position: relative;
+    float: left;
+    top: -538px;
+    right: 664px;
+    width: 142px;
+    height: 153px;
+}
+
+.effects-content .quality-life-icon{
+    position: relative;
+    float: left;
+    top: -525px;
+    right: 525px;
+    width: 142px;
+    height: 153px;
+}
+
+.effects-content .man-pick-garbage{
+    position: relative;
+    float: left;
+    top: -469px;
+    right: -547px;
+    width: 619px;
+    height: 373px;
+}
+
+.effects-support {
+    position:relative;
+    top: 660px;
+    right: -104px;
+    width: 668px;
+    height: 300px;
+    border-radius: 45px;
+    background: #024731;
+}
+
+.effects-support p{
+    position:relative;
+    top: -1430px;
+    right: -18px;
+    width: 668px;
+    height: 300px;
+
+    font-family: "JetBrains Mono";
+    font-size: 25px;
+    font-weight: 500;
+    color: aliceblue;
+}
+.button-support {
+    position: relative;
+    background: #168200;
+    top: -1219px;
+    right: -38px;
+    width: 107px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+.button-support a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.solutions-heading {
+    position: relative;
+    text-align: center;
+    top: -251px;
+    right: -196px;
+    width: 714px;
+    height: 470px;
+
+    font-family: "JetBrains Mono";
+    font-size: 65px;
+    font-weight: 500;
+    color: #4A7246;
+
+}
+
+.reduce-reuse-recycle {
+    position: relative;
+    top: 440px;
+    right: 669px;
+    width: 201px;
+    height: 175px;
+}
+
+.reduce-reuse-recycle-para {
+    position: relative;
+    float: right;
+    top: 456px;
+    right: 749px;
+    width: 201px;
+    height: 175px;
+    background: #45CD73;
+}
+
+.reduce-reuse-recycle-para p{
+    font-family: "JetBrains Mono";
+    text-align: center;
+    font-size: 14px;
+    color: #4A7246;
+}
+
+.waste-to-energy {
+    position: relative;
+    top: 51px;
+    right: 176px;
+    width: 201px;
+    height: 198px;
+}
+.waste-to-energy-para {
+    position: relative;
+    float: right;
+    top: 77px;
+    right: 352px;
+    width: 201px;
+    height: 175px;
+    background: #45CD73;
+}
+
+.waste-to-energy-para p{
+    font-family: "JetBrains Mono";
+    text-align: center;
+    font-size: 14px;
+    color: #4A7246;
+}
+
+
+.public-awareness {
+    position: relative;
+    top: -98px;
+    right: -844px;
+    width: 190px;
+    height: 144px;
+}
+.public-awareness-para {
+    position: relative;
+    float: right;
+    top: 77px;
+    right: -256px;
+    width: 201px;
+    height: 175px;
+    background: #45CD73;
+}
+
+.public-awareness-para p{
+    font-family: "JetBrains Mono";
+    text-align: center;
+    font-size: 14px;
+    color: #4A7246;
+}
+
+
+.waste-collection {
+    position: relative;
+    top: 172px;
+    right: -268px;
+    width: 179px;
+    height: 148px;
+}
+.waste-collection-para {
+    position: relative;
+    float: right;
+    top: 347px;
+    right: 146px;
+    width: 201px;
+    height: 175px;
+    background: #45CD73;
+}
+
+.waste-collection-para p{
+    font-family: "JetBrains Mono";
+    text-align: center;
+    font-size: 14px;
+    color: #4A7246;
+}
+
+.zero-waste {
+    position: relative;
+    top: 172px;
+    right: -483px;
+    width: 179px;
+    height: 148px;
+}
+.zero-waste-para {
+    position: relative;
+    float: right;
+    top: 195px;
+    right: -456px;
+    width: 201px;
+    height: 175px;
+    background: #45CD73;
+}
+
+.zero-waste-para p{
+    font-family: "JetBrains Mono";
+    text-align: center;
+    font-size: 14px;
+    color: #4A7246;
+}
+
+.articles-rectangle {
+    position: relative;
+    right: 19px;
+    top: 631px;
+    height: 990px;
+    width: 1186px;
+    background: #1f1f11;
+}
+
+.articles-heading {
+    position: relative;
+    text-align: center;
+    top: -325px;
+    right: -214px;
+    width: 714px;
+    height: 470px;
+
+    font-family: "JetBrains Mono";
+    text-align: center;
+    font-size: 49px;
+    color: #4A7246;
+
+}
+
+.waste-management-system {
+    position: relative;
+    float:right;
+    top: -642px;
+    right: 59px;
+    width: 757px;
+    height: 215px;
+    background: #4D6E4A;
+    text-align: left;
+    font-size: 15px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+.waste-management-topic p{
+    position: relative;
+    float: right;
+    font-family: "JetBrains Mono";
+    top: -834px;
+    right: 151px;
+    text-align: left;
+    font-size: 31px;
+    color: white;
+
+}
+
+.safety-culture-logo {
+   position: relative;
+   top: -1036px;
+   right: -719px ;
+
+}
+
+.waste-management-topic-button {
+    position: relative;
+    background: #C8D8C7;
+    left: 493px;
+    bottom: 490px;
+    width: 107px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    text-decoration: none;
+
+}
+
+.waste-management-topic-button  a{
+    text-decoration: none;
+    color: grey;
+}
+
+.optimizing-waste-collection-topic {
+    position: relative;
+    float:right;
+    top: -668px;
+    right: 64px;
+    width: 749px;
+    height: 209px;
+    background: #4D6E4A;
+    text-align: left;
+    font-size: 15px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+.optimizing-waste-collection-topic p{
+    position: relative;
+    font-family: "JetBrains Mono";
+    top: 39px;
+    right: -121px;
+    text-align: left;
+    font-size: 31px;
+    color: white;
+
+}
+
+.veolia-logo {
+   position: relative;
+   top: -435px;
+   right: -854px ;
+}
+
+.optimizing-waste-collection-topic-button {
+    position: relative;
+    background: #C8D8C7;
+    left: 493px;
+    bottom: 298px;
+    width: 107px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    text-decoration: none;
+
+}
+
+.optimizing-waste-collection-topic-button  a{
+    text-decoration: none;
+    color: grey;
+}
+
+
+
+
+
+.eight-ways-to-reduce-topic {
+    position: relative;
+    float:right;
+    top: -640px;
+    right: 64px;
+    width: 749px;
+    height: 209px;
+    background: #4D6E4A;
+    text-align: left;
+    font-size: 15px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+.eight-ways-to-reduce-topic p{
+    position: relative;
+    font-family: "JetBrains Mono";
+    top: 39px;
+    right: -121px;
+    text-align: left;
+    font-size: 31px;
+    color: white;
+
+}
+
+.veolia-logo {
+   position: relative;
+   top: -435px;
+   right: -854px ;
+}
+
+.eight-ways-to-reduce-topic-button {
+    position: relative;
+    background: #C8D8C7;
+    left: 493px;
+    bottom: 103px;
+    width: 107px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    text-decoration: none;
+
+}
+
+.eight-ways-to-reduce-topic-button  a{
+    text-decoration: none;
+    color: grey;
+}
+
+.support-main-content {
+    position:relative;
+    top: 80px;
+    right: 90px;
+
+    font-family: "JetBrains Mono";
+}
+
+.support-main-content p{
+    position:relative;
+    top: 101px;
+    right: -3px;
+    font-family: "JetBrains Mono";
+    line-height: 29px;
+
+    font-size: 19px;
+}
+
+.support-main-content .importance-para {
+    position: relative;
+    top:158px;
+    right: -3px
+
+}
+
+.support-main-content h2{
+    position: relative;
+    top:141px;
+    right: -4px
+}
+
+.sahaas-rectangle {
+    position: relative;
+    float: right;
+    background: #4D6E4A;
+    height: 307px;
+    width: 568px;
+    top: 427px;
+    right: 514px;
+    border-radius: 19px;
+}
+
+.sahaas-content {
+    position: relative;
+    top: 438px;
+    right: 44px;
+    font-family: "JetBrains Mono";
+    font-size: 16.7px;
+    color: aliceblue;
+    
+}
+
+.sahaas-button {
+    position: relative;
+    background: #168200;
+    left: -35px;
+    bottom: -465px;
+    width: 107px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+.sahaas-button a{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+.sahaas-logo {
+    position: relative;
+    top: 220px;
+    right: -675px;
+    height: 154px;
+    width: 330px;
+}
+
+.waste-warriors-rectangle {
+    position: relative;
+    float: right;
+    background: #4D6E4A;
+    height: 364px;
+    width: 568px;
+    top: 409px;
+    right: 514px;
+    border-radius: 19px;
+}
+
+.waste-warriors-content {
+    position: relative;
+    top: 438px;
+    right: 44px;
+    font-family: "JetBrains Mono";
+    font-size: 16.7px;
+    color: aliceblue;
+    
+}
+
+.waste-warriors-button {
+    position: relative;
+    background: #168200;
+    left: -35px;
+    bottom: -446px;
+    width: 107px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+.waste-warriors-button a{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+.waste-warriors-logo {
+    position: relative;
+    top: 158px;
+    right: -626px;
+    height: 107px;
+    width: 434px;
+}
+
+
+.wasteaid-rectangle {
+    position: relative;
+    float: right;
+    background: #4D6E4A;
+    height: 263px;
+    width: 568px;
+    top: 409px;
+    right: 514px;
+    border-radius: 19px;
+}
+
+.wasteaid-content {
+    position: relative;
+    top: 438px;
+    right: 44px;
+    font-family: "JetBrains Mono";
+    font-size: 16.7px;
+    color: aliceblue;
+    
+}
+
+.wasteaid-button {
+    position: relative;
+    background: #168200;
+    left: -35px;
+    bottom: -446px;
+    width: 107px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+.wasteaid-button a{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+.wasteaid-logo {
+    position: relative;
+    top: 285px;
+    right: -671px;
+    height: 107px;
+    width: 352px;
+}
+
+.container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
